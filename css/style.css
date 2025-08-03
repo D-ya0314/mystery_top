@@ -713,21 +713,26 @@ body {
   transform: translateY(-3px);
 }
 
+.article_thumbnail_box {
+  margin-top: 40px;
+  height: 25rem;
+  text-align: center;
+}
+
 .article_thumbnail {
-  width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  object-fit: contain;
 }
 
 .article_content_p {
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   line-height: 1.7;
 }
 
 .article_content_ul {
   padding-left: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /*js*/
