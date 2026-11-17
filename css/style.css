@@ -241,10 +241,43 @@ body {
 
 .l_footer-nav_list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
   color: var(--primary-color);
+}
+
+.site-about {
+  padding: 72px 0;
+  background: var(--gray-color02);
+}
+
+.site-about p {
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+
+.site-about-details {
+  max-width: 800px;
+  margin: 32px auto 0;
+}
+
+.site-about-details div {
+  display: grid;
+  gap: 4px 24px;
+  padding: 12px 0;
+  border-top: 1px solid #ddd;
+}
+
+@media screen and (min-width: 768px) {
+  .site-about-details div {
+    grid-template-columns: 220px 1fr;
+  }
+}
+
+.site-about-details dt {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
